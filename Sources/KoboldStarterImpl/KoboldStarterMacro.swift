@@ -13,7 +13,6 @@ public struct KoboldStarterMacro: PeerMacro {
             return []
         }
         let className = classDecl.name.text
-
         let decl: DeclSyntax = """
         @_cdecl("kobold_register_app")
         public func kobold_register_app() -> UnsafeMutableRawPointer {
