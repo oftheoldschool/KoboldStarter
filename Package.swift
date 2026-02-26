@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/oftheoldschool/KoboldFramework.git", "0.0.1"..<"1.0.0"),
-        .package(url: "https://github.com/swiftlang/swift-syntax", from: "509.0.0"),
+        .package(url: "https://github.com/swiftlang/swift-syntax", from: "602.0.0"),
     ],
     targets: [
         .target(
