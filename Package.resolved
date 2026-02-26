@@ -1,0 +1,24 @@
+{
+  "originHash" : "66f6ca446104661bd53bce52fc841b72a19905cd04d199881b8d50f21a568d5a",
+  "pins" : [
+    {
+      "identity" : "koboldframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/oftheoldschool/KoboldFramework.git",
+      "state" : {
+        "revision" : "75905dfbc994277a1e4d402802b35b6ee326ff71",
+        "version" : "0.0.87"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax",
+      "state" : {
+        "revision" : "64889f0c732f210a935a0ad7cda38f77f876262d",
+        "version" : "509.1.1"
+      }
+    }
+  ],
+  "version" : 3
+}
