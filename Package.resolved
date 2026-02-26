@@ -1,5 +1,5 @@
 {
-  "originHash" : "66f6ca446104661bd53bce52fc841b72a19905cd04d199881b8d50f21a568d5a",
+  "originHash" : "01750d38d716f6b3535a0ed08da2c1f8f687ba82f8f06fa29365a2724569bf58",
   "pins" : [
     {
       "identity" : "koboldframework",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/swiftlang/swift-syntax",
       "state" : {
-        "revision" : "64889f0c732f210a935a0ad7cda38f77f876262d",
-        "version" : "509.1.1"
+        "revision" : "4799286537280063c85a32f09884cfbca301b1a1",
+        "version" : "602.0.0"
       }
     }
   ],
