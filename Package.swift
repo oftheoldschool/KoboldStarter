@@ -11,8 +11,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "KoboldMacros",
-            targets: ["KoboldMacros"]
+            name: "KoboldStarter",
+            targets: ["KoboldStarter"]
         ),
     ],
     dependencies: [
@@ -21,22 +21,22 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "KoboldMacros",
+            name: "KoboldStarter",
             dependencies: [
-                "KoboldMacrosImpl",
+                "KoboldStarterImpl",
                 .product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
                 .product(name: "KoboldFramework", package: "KoboldFramework"),
             ],
-            path: "./Sources/KoboldMacros"
+            path: "./Sources/KoboldStarter"
         ),
         .macro(
-            name: "KoboldMacrosImpl",
+            name: "KoboldStarterImpl",
             dependencies: [
                 .product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
                 .product(name: "SwiftCompilerPlugin", package: "swift-syntax"),
                 .product(name: "KoboldFramework", package: "KoboldFramework"),
             ],
-            path: "./Sources/KoboldMacrosImpl"
+            path: "./Sources/KoboldStarterImpl"
         ),
     ]
 )

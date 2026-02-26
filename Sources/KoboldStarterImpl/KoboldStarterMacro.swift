@@ -3,7 +3,7 @@ import SwiftSyntax
 import SwiftSyntaxBuilder
 import SwiftSyntaxMacros
 
-public struct KoboldMainMacro: PeerMacro {
+public struct KoboldStarterMacro: PeerMacro {
     public static func expansion(
         of node: AttributeSyntax,
         providingPeersOf declaration: some DeclSyntaxProtocol,
@@ -26,8 +26,8 @@ public struct KoboldMainMacro: PeerMacro {
 }
 
 @main
-struct KoboldMacrosPlugin: CompilerPlugin {
+struct KoboldStarterPlugin: CompilerPlugin {
     let providingMacros: [Macro.Type] = [
-        KoboldMainMacro.self
+        KoboldStarterMacro.self
     ]
 }
